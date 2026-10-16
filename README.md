@@ -1,4 +1,4 @@
-# Afterthought
+# Afterthought Skill
 
 A second thought for Claude Code, before it spends the effort.
 
@@ -33,8 +33,8 @@ The tree starts nearly empty on purpose. It fills with your own problems as you 
 Needs Claude Code and `jq`.
 
 ```bash
-git clone https://github.com/Morfor/afterthought
-cd afterthought && ./install.sh
+git clone https://github.com/Morfor/afterthought-skill
+cd afterthought-skill && ./install.sh
 ```
 
 It copies the agent and skill into `~/.claude/`, seeds the tree with one example file (only if the tree is empty), and adds the hook to `~/.claude/settings.json` (a backup is saved next to it). Restart Claude Code.
